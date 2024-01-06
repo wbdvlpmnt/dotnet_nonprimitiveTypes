@@ -1,4 +1,6 @@
-﻿namespace nonprimitive;
+﻿using nonprimitive.calculator;
+
+namespace nonprimitive;
 
 class Program
 {

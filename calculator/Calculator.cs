@@ -1,4 +1,4 @@
-namespace nonprimitive;
+namespace nonprimitive.calculator;
 
 public class Calculator
 {

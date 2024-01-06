@@ -3,6 +3,7 @@
 - We can create a class and use it by creating a new object
 - Using the static keyword on a method we do not need to create a new object to use it.
 - We can use the IDE to refactor class to a new file, keep in mind the namespace needs to be the same as where you are referencing the class.
+- Without public keyword the class will not be accessible
 
 ### To run this project:
 
