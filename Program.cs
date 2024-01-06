@@ -2,7 +2,7 @@
 
 namespace nonprimitive;
 
-class Program
+partial class Program
 {
     static void Main(string[] args)
     {
@@ -48,5 +48,12 @@ class Program
         string path = @"c:\\projects\project1\Program.cs"; // verbatim string
         System.Console.WriteLine(path);
 
+        // Enums
+        var method = ShippingMethod.Freight;
+        System.Console.WriteLine((int)method); // gives int 3
+        System.Console.WriteLine(method); // gives string "Freight"
+
+        var mtdId = 2;
+        System.Console.WriteLine((ShippingMethod)mtdId);
     }
 }

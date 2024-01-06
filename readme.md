@@ -8,6 +8,7 @@
 - Struct is like a lightweight object, mostly we use classes.
 - Use format string with placeholders to do string interpolation
 - Use verbatim strings for things like a path so we dont need to escape all the charesters.
+- Use Enums for things like options, we can use this to write cleaner code.
 
 ### To run this project:
 
