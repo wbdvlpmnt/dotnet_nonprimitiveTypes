@@ -41,5 +41,9 @@ class Program
         System.Console.WriteLine(names[1]);
         System.Console.WriteLine(names[2]);
 
+        // strings
+        string name = string.Format("{0} {1}", "firstName", "lastName");
+        System.Console.WriteLine(name);
+
     }
 }
