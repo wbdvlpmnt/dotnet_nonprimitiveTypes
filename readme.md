@@ -6,6 +6,8 @@
 - Without public keyword the class will not be accessible.
 - If your class is in a different namespace, you will need to use the using at the top to import the class into your program.
 - Struct is like a lightweight object, mostly we use classes.
+- Use format string with placeholders to do string interpolation
+- Use verbatim strings for things like a path so we dont need to escape all the charesters.
 
 ### To run this project:
 

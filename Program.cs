@@ -45,5 +45,8 @@ class Program
         string name = string.Format("{0} {1}", "firstName", "lastName");
         System.Console.WriteLine(name);
 
+        string path = @"c:\\projects\project1\Program.cs"; // verbatim string
+        System.Console.WriteLine(path);
+
     }
 }
