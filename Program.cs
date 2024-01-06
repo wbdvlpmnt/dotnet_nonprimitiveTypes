@@ -26,6 +26,20 @@ class Program
         rgb.Green = 3;
         System.Console.WriteLine(rgb.Red);
 
+        // Arrays
+        int[] numbers = new int[3];
+        numbers[0] = 1;
+        numbers[1] = 2;
+        numbers[2] = 3;
+
+        System.Console.WriteLine(numbers[0]);
+        System.Console.WriteLine(numbers[1]);
+        System.Console.WriteLine(numbers[2]);
+
+        var names = new string[3] { "Jack", "john", "mary" };
+        System.Console.WriteLine(names[0]);
+        System.Console.WriteLine(names[1]);
+        System.Console.WriteLine(names[2]);
 
     }
 }
