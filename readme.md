@@ -5,6 +5,7 @@
 - We can use the IDE to refactor class to a new file, keep in mind the namespace needs to be the same as where you are referencing the class.
 - Without public keyword the class will not be accessible.
 - If your class is in a different namespace, you will need to use the using at the top to import the class into your program.
+- Struct is like a lightweight object, mostly we use classes.
 
 ### To run this project:
 

@@ -19,5 +19,13 @@ class Program
         int result = Calculator.Add(1, 2);
         Console.WriteLine(result);
 
+        // Example of using a struct 
+        RgbColor rgb = new RgbColor();
+        rgb.Red = 1;
+        rgb.Blue = 2;
+        rgb.Green = 3;
+        System.Console.WriteLine(rgb.Red);
+
+
     }
 }
