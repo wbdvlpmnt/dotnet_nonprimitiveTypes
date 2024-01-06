@@ -17,7 +17,7 @@ class Program
         // using the static keyword, 
         // no need to create a new obj
         int result = Calculator.Add(1, 2);
-        System.Console.WriteLine(result);
+        Console.WriteLine(result);
 
     }
 }
