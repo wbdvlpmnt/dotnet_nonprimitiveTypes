@@ -29,11 +29,3 @@ public class Person
         System.Console.WriteLine("Hi, my name is " + Name);
     }
 }
-
-public class Calculator
-{
-    public static int Add(int a, int b)
-    {
-        return a + b;
-    }
-}
